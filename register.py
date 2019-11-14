@@ -4,155 +4,150 @@ import randomimport time
 import os
 import random
 
-item = input("Enter the cost of the item: ")
+particular = input("Enter the total of the particular item you have: ")
 
-print("The item is $ " + str(item))
+print("The particular item is: " + str(particular))
 
-dollars = input("Enter the number of dollars you will pay:")
+buck = input("How much money would you like to pay with?:")
 
-icents = 0
-icents = float(item) * 100
-pcents = 0
-total = 0
-finalprintd = 0
-finalprintc = 0
-finalprintdim = 0
-finalprintn = 0
-finalprintp = 0
-finalprinth = 0
+thecents = 0
+thecents = float(particular) * 100
+pencen = 0
+together = 0
+dimesprinted = 0
+printingthecents = 0
+dimesprintedses  = 0
+printthenickels = 0
+printpenn = 0
+printhalfs = 0
 
-print("You payed $" + str(dollars))
+print("You have paid:" + str(buck))
 
-pcents += int(dollars) * int(100)
+pencen += int(buck) * int(100)
 
-#rint(icents)
 
-#rint(pcents)  
 
-finalc = pcents - icents
 
-#rint(finalc)
 
-total = finalc / 100
+finalbucks = pencen - thecents
+together = finalbucks / 100
 
-#rint(finald)
 
-print("You got $" + str(total) + " back.")
+
+print("You got:" + str(together) + " back.")
 print("")
 
-while finalc > 100:
-	finalprintd += 1
-	finalc -= 100
-print("You got " + str(finalprintd) + " dollar bills.")
+while finalbucks > 100:
+	dimesprinted += 1
+	finalbucks -= 100
+print("You got " + str(dimesprinted) + " dollar bills.")
 print("")
 
-while finalc > 50:
-	finalprinth +=1
-	finalc -= 50
-print("You got " + str(finalprinth) + " half dollars.")
+while finalbucks > 50:
+	printhalfs +=1
+	finalbucks -= 50
+print("You got " + str(printhalfs) + " half buck.")
 print("")
 
 
-while finalc > 25:
-	finalprintc += 1
-	finalc -= 25
-print("You got " + str(finalprintc) + " quarters.")
+while finalbucks > 25:
+	printingthecents += 1
+	finalbucks -= 25
+print("You got " + str(printingthecents) + " quarters.")
 print("")
 
 
-if finalc < 25:
-	while finalc > 10:
-		finalprintdim += 1
-		finalc -=10
-	print("You got " + str(finalprintdim) + " dimes.")
+if finalbucks < 25:
+	while finalbucks > 10:
+		dimesprintedses  += 1
+		finalbucks -=10
+	print("You got " + str(dimesprintedses ) + " dimes.")
 	print("")
 
-	while finalc > 5:
-		finalprintn += 1
-		finalc -=5
-	print("You got " + str(finalprintn) + " nickels.")
+	while finalbucks > 5:
+		printthenickels += 1
+		finalbucks -=5
+	print("You got " + str(printthenickels) + " nickels.")
 	print("")
 
-	while finalc > 0:
-		finalprintp += 1
-		finalc -=1
-	print("You got " + str(finalprintp) + " pennies.")
+	while finalbucks > 0:
+		printpenn += 1
+		finalbucks -=1
+	print("You got " + str(printpenn) + " pennies.")
 	print("")
 
 
 
 
-item = input("Enter the cost of the item: ")
+particular = input("Enter the cost of the particular item: ")
 
-print("The item is $ " + str(item))
+print("The particular item is:" + str(particular))
 
-dollars = input("Enter the number of dollars you will pay:")
+buck = input("How much money would you like to pay with?:")
 
-icents = 0
-icents = float(item) * 100
-pcents = 0
-total = 0
-finalprintd = 0
-finalprintc = 0
-finalprintdim = 0
-finalprintn = 0
-finalprintp = 0
-finalprinth = 0
+thecents = 0
+thecents = float(particular) * 100
+pencen = 0
+together = 0
+dimesprinted = 0
+printingthecents = 0
+dimesprintedses  = 0
+printthenickels = 0
+printpenn = 0
+printhalfs = 0
 
-print("You payed $" + str(dollars))
+print("You paid:" + str(buck))
 
-pcents += int(dollars) * int(100)
+pencen += int(buck) * int(100)
 
-#rint(icents)
 
-#rint(pcents)  
 
-finalc = pcents - icents
+ 
 
-#rint(finalc)
+finalbucks = pencen - thecents
+together = finalbucks / 100
 
-total = finalc / 100
 
-#rint(finald)
-
-print("You got $" + str(total) + " back.")
+print("You got:" + str(together) + " back.")
 print("")
 
-while finalc > 100:
-	finalprintd += 1
-	finalc -= 100
-print("You got " + str(finalprintd) + " dollar bills.")
+while finalbucks > 100:
+	dimesprinted += 1
+	finalbucks -= 100
+print("You got " + str(dimesprinted) + " dollar bills.")
 print("")
 
-while finalc > 50:
-	finalprinth +=1
-	finalc -= 50
-print("You got " + str(finalprinth) + " half dollars.")
+while finalbucks > 50:
+	printhalfs +=1
+	finalbucks -= 50
+print("You got " + str(printhalfs) + " half buck.")
 print("")
 
 
-while finalc > 25:
-	finalprintc += 1
-	finalc -= 25
-print("You got " + str(finalprintc) + " quarters.")
+while finalbucks > 25:
+	printingthecents += 1
+	finalbucks -= 25
+print("You got " + str(printingthecents) + " quarters.")
 print("")
 
 
-if finalc < 25:
-	while finalc > 10:
-		finalprintdim += 1
-		finalc -=10
-	print("You got " + str(finalprintdim) + " dimes.")
+if finalbucks < 25:
+	while finalbucks > 10:
+		dimesprintedses  += 1
+		finalbucks -=10
+	print("You got " + str(dimesprintedses ) + " dimes.")
 	print("")
 
-	while finalc > 5:
-		finalprintn += 1
-		finalc -=5
-	print("You got " + str(finalprintn) + " nickels.")
+	while finalbucks > 5:
+		printthenickels += 1
+		finalbucks -=5
+	print("You got " + str(printthenickels) + " nickels.")
 	print("")
 
-	while finalc > 0:
-		finalprintp += 1
-		finalc -=1
-	print("You got " + str(finalprintp) + " pennies.")
+	while finalbucks > 0:
+		printpenn += 1
+		finalbucks -=1
+	print("You got " + str(printpenn) + " pennies.")
 	print("")
+
+#the end
